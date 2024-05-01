@@ -60,5 +60,7 @@ const gato = new Gato();
 const cavalo = new Cavalo();
 
 cachorro.som();
+console.log("/");
 gato.som();
+console.log("/");
 cavalo.som();

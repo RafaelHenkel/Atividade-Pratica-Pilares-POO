@@ -9,9 +9,9 @@
 // comportamento diferente para cada animal.
 
 abstract class Animal {
-  private comer: boolean;
-  private andar: boolean;
-  private respirar: boolean;
+  protected comer: boolean;
+  protected andar: boolean;
+  protected respirar: boolean;
 
   constructor(comer = true, andar = true, respirar = true) {
     this.comer = comer;

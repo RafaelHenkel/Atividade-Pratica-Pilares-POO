@@ -49,5 +49,7 @@ const cachorro = new Cachorro_1.default();
 const gato = new Gato_1.default();
 const cavalo = new Cavalo_1.default();
 cachorro.som();
+console.log("/");
 gato.som();
+console.log("/");
 cavalo.som();

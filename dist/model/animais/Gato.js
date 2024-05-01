@@ -12,6 +12,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const Animal_1 = __importDefault(require("./Animal"));
 class Gato extends Animal_1.default {
     som() {
+        console.log(`Gato comer? ${this.comer}`);
+        console.log(`Gato anda? ${this.andar}`);
+        console.log(`Gato respira? ${this.respirar}`);
         console.log("Gato faz miau");
     }
 }
